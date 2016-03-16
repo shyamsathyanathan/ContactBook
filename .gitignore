@@ -1,0 +1,9 @@
+/build/**
+/bin/**
+**.class
+.project
+.directory
+.classpath
+.gradle
+.settings
+myContactBook

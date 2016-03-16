@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+group = "com.shyam.contactbook"
+version = 1.0
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	compile 'com.google.code.gson:gson:2.3.1'
+	compile 'com.google.guava:guava:14.0.1'
+			
+    testCompile 'junit:junit:4.9'
+}
